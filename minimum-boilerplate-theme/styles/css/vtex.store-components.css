@@ -1,5 +1,19 @@
+.container{
+    background: black;
+}
+
 .infoCardContainer {
     background-color: #f0f0f0;
     padding: 0px;
     margin: 0px;
+}
+
+.styledLinkContent{
+    color: white;
+}
+
+.asc{
+    background: #88831a;
+    background: #8a8f5d;
+    background: #afb0a3;
 }

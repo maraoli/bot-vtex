@@ -22,7 +22,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "header"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -40,41 +41,6 @@
       "header-spacer"
     ]
   },
-  "vtex.menu@2.x:menu#categories": {
-    "children": [
-      "menu-item#brand1",
-      "menu-item#brand2",
-      "menu-item#brand3"
-    ],
-  
-    "props":{
-      "orientation": "horizontal"
-    }
-  },
-  "menu-item#brand1":{
-    "props":{
-      "text": "Eletrodomésticos",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
-  },
-  "menu-item#brand2":{
-    "props":{
-      "text": "Eletroeletrônicos",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
-  },
-  "menu-item#brand3":{
-    "props":{
-      "text": "Móveis",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
-  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -90,8 +56,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://trello-attachments.s3.amazonaws.com/5f3da4396ff8c20186028831/5f6a7ccc0ba3d23fbbeb112c/549d428ab8b0f11bd2424f740030232a/Logo_6_G.svg",
+      "width": "100"
     }
   },
   "header-layout.mobile": {

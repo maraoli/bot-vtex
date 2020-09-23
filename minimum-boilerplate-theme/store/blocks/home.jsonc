@@ -2,64 +2,14 @@
   "store.home": { 
     "blocks": [
       "slider-layout",
-      // "shelf",
+      //"shelf",
+      "list-context.product-list#demo1",
+      //"product-summary.shelf#demo1",
+      //"shelf#home",
       "countdown"
     ]
   },
-  "slider-layout": {
-    "children": ["info-card#brand1","info-card#brand2","info-card#brand3"],
-    "props": {
-      "autoplay": {
-        "timeout": 7000,
-        "stopOnHover": true
-      },
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
-  },
-  "info-card#brand1": {
-    "props": {
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=453&q=80",
-      "headline": "Festival Minha Cozinha Nova",
-      "subhead": "Aproveite para reformar sua cozinha com 20% de desconto.",
-      "callToActionMode": "button",
-      "callToActionText": "Saiba Mais",
-      "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#brand2": {
-    "props": {
-      "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "https://images.unsplash.com/photo-1538944570562-2c9cb7857097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=450&q=80",
-      "headline": "Renovando as cores",
-      "subhead": "Tudo o que você precisa para dar novas os cores aos seus móveis",
-      "callToActionMode": "button",
-      "callToActionText": "Saiba Mais",
-      "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#brand3": {
-    "props": {
-      "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "https://images.unsplash.com/photo-1505693196193-bfd859ae01d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=450&q=80",
-      "headline": "Cozinha de Luxo",
-      "subhead": "Aqueles itens de novela agora disponíveis em um só click.",
-      "callToActionMode": "button",
-      "callToActionText": "Saiba Mais",
-      "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
-    }
+  "shelf#home":{
+    "blocks": ["product-summary.shelf"]
   }
 }

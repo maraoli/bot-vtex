@@ -1,0 +1,36 @@
+{
+    "vtex.menu@2.x:menu#categories": {
+        "children": [
+            "menu-item#brand1",
+            "menu-item#brand2",
+            "menu-item#brand3"
+        ],
+        "props":{
+            "orientation": "horizontal"
+        }
+    },
+    "menu-item#brand1":{
+        "props":{
+            "text": "Notebooks",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1"
+        }
+    },
+    "menu-item#brand2":{
+        "props":{
+            "text": "Eletroeletrônicos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1"
+        }
+    },
+    "menu-item#brand3":{
+        "props":{
+            "text": "Equipamentos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1"
+        }
+    }
+}
