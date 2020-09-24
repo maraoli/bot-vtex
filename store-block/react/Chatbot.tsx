@@ -19,8 +19,8 @@ const KommunicateChat: StorefrontFunctionComponent<KommunicateChat> = ({ }) => {
 }
 
 KommunicateChat.schema = {
-    title: 'editor.countdown.title',
-    description: 'editor.countdown.description',
+    title: 'admin/editor.chatbot.title',
+    description: 'admin/editor.chatbot.description',
     type: 'object',
     properties: {},
 }

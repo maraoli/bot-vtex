@@ -1,18 +1,21 @@
 {
-  "shelf": {
-    "blocks": ["product-summary.shelf"],
-    "props": {
-      "category": 1,
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList": {
-        "maxItems": 8,
-        "itemsPerPage": 2,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "Top sellers"
+  "list-context.product-list#demo1": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC"
+      }
+    },
+    "slider-layout#demo-products": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 3,
+          "phone": 1
+        },
+        "infinite": true,
+        "fullWidth": false,
+        "blockClass": "shelf"
       }
     }
-  }
 }

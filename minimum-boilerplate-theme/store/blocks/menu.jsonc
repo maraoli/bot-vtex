@@ -14,7 +14,10 @@
             "text": "Notebooks",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-1"
+            "font": "t-heading-1",
+            "itemProps": {
+                "href": "/xicara/1"
+            }
         }
     },
     "menu-item#brand2":{
@@ -22,7 +25,10 @@
             "text": "Eletroeletrônicos",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-1"
+            "font": "t-heading-1",
+            "itemProps": {
+                "href": "/xicara/2"
+            }
         }
     },
     "menu-item#brand3":{
@@ -30,7 +36,10 @@
             "text": "Equipamentos",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-1"
+            "font": "t-heading-1",
+            "itemProps": {
+                "href": "/xicara/3"
+            }
         }
     }
 }
