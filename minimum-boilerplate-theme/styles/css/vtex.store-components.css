@@ -7,3 +7,6 @@
 .styledLinkContent{
     color: white;
 }
+.swiperBullet--active{
+    background: black;
+}
