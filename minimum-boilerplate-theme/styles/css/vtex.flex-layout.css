@@ -1,4 +1,9 @@
-/* HEADER*/
+/* HEADER */
 .flexRowContent--header{
-    background-color: black;
+    background: black;
+}
+
+/* FOOTER */
+.flexRow--footer{
+    background: black;
 }
