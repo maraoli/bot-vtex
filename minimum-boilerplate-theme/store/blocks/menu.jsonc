@@ -6,7 +6,8 @@
             "menu-item#brand3"
         ],
         "props":{
-            "orientation": "horizontal"
+            "orientation": "horizontal",
+            "blockClass": "menu"
         }
     },
     "menu-item#brand1":{
@@ -22,7 +23,7 @@
     },
     "menu-item#brand2":{
         "props":{
-            "text": "Eletroeletrônicos",
+            "text": "Celulares",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-1",

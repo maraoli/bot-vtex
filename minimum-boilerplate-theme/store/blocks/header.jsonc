@@ -39,7 +39,10 @@
       "header-spacer",
       "vtex.menu@2.x:menu#categories",
       "header-spacer"
-    ]
+    ],
+    "props": {
+      "blockClass": "div-menu"
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
